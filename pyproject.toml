@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pytorch-deep-learning"
+version = "0.1.0"
+description = ""
+authors = ["Harry Nguyen <harry.m.h.nguyen@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pytorch_deep_learning"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+notebook = "^6.5.4"
+jupyterlab = "^3.6.3"
+torch = "^2.0.0"
+torchvision = "^0.15.1"
+torchaudio = "^2.0.1"
+pandas = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
